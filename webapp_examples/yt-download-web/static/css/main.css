@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  h1 {
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff0000;
+  }
+  
+  .instructions {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  ol {
+    margin-left: 20px;
+  }
+  
+  form {
+    flex: 1;
+    margin-top: 110px;
+  }
+  
+  label, input, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, button {
+    padding: 10px 0px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px #cccccc;
+  }
+  
+  button {
+    font-weight: bold;
+    background-color: #ff0000;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #ffffff;
+    color: #ff0000;
+    box-shadow: 1px 1px #cccccc;
+  }
+  
+  p.message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+  }
+  
